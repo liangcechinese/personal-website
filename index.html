@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>梁先生的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>你好，我是<span class="highlight"> 梁先生</span></h1>
+            <p class="subtitle">一个热爱探索和创造的开发者</p>
+            <nav class="hero-nav">
+                <ul>
+                    <li><a href="#resume">简历</a></li>
+                    <li><a href="#connect">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero-avatar">
+            <div class="avatar-container">
+                <img src="images/一只猫.jpeg" alt="梁先生头像" class="avatar-image">
+            </div>
+        </div>
+        <div class="hero-shapes"></div>
+        <div class="hero-scroll-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- 简历部分 -->
+    <section id="resume">
+        <div class="section-header">
+            <h2>个人简历</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="resume-container">
+            <!-- 教育背景 -->
+            <div class="resume-section">
+                <h3 class="resume-title">教育背景</h3>
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <h4>计算机科学学士</h4>
+                        <span class="resume-date">2018 - 2022</span>
+                    </div>
+                    <p class="resume-institution">XX大学</p>
+                    <p class="resume-description">主修计算机科学与技术，辅修人工智能。GPA 3.8/4.0</p>
+                </div>
+            </div>
+
+            <!-- 工作经验 -->
+            <div class="resume-section">
+                <h3 class="resume-title">工作经验</h3>
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <h4>高级前端开发工程师</h4>
+                        <span class="resume-date">2022 - 至今</span>
+                    </div>
+                    <p class="resume-institution">XX科技有限公司</p>
+                    <p class="resume-description">负责公司核心产品的前端开发与维护，优化用户体验，提升产品性能。</p>
+                    <ul class="resume-list">
+                        <li>使用React和TypeScript重构了核心产品，提升了50%的页面加载速度</li>
+                        <li>设计并实现了组件库，提高了团队开发效率</li>
+                        <li>优化了CI/CD流程，缩短了部署时间</li>
+                    </ul>
+                </div>
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <h4>前端开发实习生</h4>
+                        <span class="resume-date">2021 - 2022</span>
+                    </div>
+                    <p class="resume-institution">XX互联网公司</p>
+                    <p class="resume-description">参与公司电商平台的前端开发工作。</p>
+                    <ul class="resume-list">
+                        <li>使用Vue.js开发了多个核心功能模块</li>
+                        <li>协助解决了项目中的性能问题</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 技能 -->
+            <div class="resume-section">
+                <h3 class="resume-title">专业技能</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>前端技术</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>后端技术</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>工具与方法</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Webpack</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系部分 -->
+    <section id="connect">
+        <div class="connect-container">
+            <div class="section-header connect-header">
+                <h2>保持联系</h2>
+                <div class="section-divider light"></div>
+            </div>
+            <p class="connect-subtitle">你可以在这些平台找到我：</p>
+            <div class="social-links-connect">
+                <a href="https://github.com/liangcechinese" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <div class="social-icon github">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </div>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.xiaohongshu.com/user/profile/6684a5ca00000000030308b5?xsec_token=ABDg3y5WM5Vp1RlaCqZmXxBW210GakvK8mqIfetam6YbI=&xsec_source=pc_note" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <div class="social-icon xiaohongshu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 4h6v2H9V4zm6 16H9v-2h6v2zm3-4H6v-2h12v2zm0-4H6V8h12v2z"/></svg>
+                    </div>
+                    <span>小红书 (酷儿)</span>
+                </a>
+                <a href="https://www.douyin.com/user/MS4wLjABAAAAdh0IC-Kd2EJpCNsQx3ZLqz0pIZOGN2wAgp86CMleodI?from_tab_name=main" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <div class="social-icon douyin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15 3H9v11.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4v4.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V3h-2z"/></svg>
+                    </div>
+                    <span>抖音</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">LC</div>
+            <p class="footer-copyright">&copy; 2025 梁先生. 保留所有权利。</p>
+            <p class="icp-placeholder">【此处未来放置 ICP 备案号】</p>
+        </div>
+    </footer>
+
+    <script>
+        // 添加页面载入动画效果
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>
