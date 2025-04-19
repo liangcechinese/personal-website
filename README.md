@@ -22,7 +22,33 @@
 
 1. **首页**：个人介绍和头像
 2. **简历**：教育背景、工作经验和专业技能
-3. **联系方式**：社交媒体链接 (GitHub、小红书、抖音)
+3. **标注工具平台**：嵌入或链接到我的在线标注工具
+4. **联系方式**：社交媒体链接 (GitHub、小红书、抖音)
+
+## 标注工具平台
+
+我计划在“简历”与“联系方式”之间添加一个新的“标注工具平台”部分，来展示并链接到我部署的标注工具页面。
+
+**设计思路**：
+- **简介文案**：简要介绍工具的功能和用途
+- **访问按钮**：使用一个醒目的按钮，直接跳转到 [Annotation Platform](https://annotation-platform-mu.vercel.app/)
+- **嵌入预览**（可选）：通过 `<iframe>` 嵌入页面，让用户无需离开即可试用
+
+**示例 HTML 代码**：
+```html
+<section id="annotation">
+  <div class="section-header">
+    <h2>标注工具平台</h2>
+    <div class="section-divider"></div>
+  </div>
+  <div class="annotation-container">
+    <p>这是我部署的在线标注工具，用于快速标注图像/文本数据。</p>
+    <a href="https://annotation-platform-mu.vercel.app/" target="_blank" class="btn">访问标注工具</a>
+    <!-- 可嵌入 iframe 预览 -->
+    <iframe src="https://annotation-platform-mu.vercel.app/" width="100%" height="500" frameborder="0"></iframe>
+  </div>
+</section>
+```
 
 ## 本地开发
 
